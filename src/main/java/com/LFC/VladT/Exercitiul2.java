@@ -11,14 +11,20 @@ public class Exercitiul2 {
 
         lista=readNextValue();
         nrExpon=lista.size();
-        primeList=genPrimeNr(nrExpon);
+        if (nrExpon==1) {
+            int rez= lista.pop();
+            lista=genPrimeAfter(rez);
+            System.out.println(lista);
+        }
+        else{
+            primeList = genPrimeNr(nrExpon);
 
-        while (lista.isEmpty()==false){
-            rezultat=rezultat *((int) Math.pow(primeList.pop(), lista.pop()));
+            while (lista.isEmpty() == false) {
+                rezultat = rezultat * ((int) Math.pow(primeList.pop(), lista.pop()));
+            }
+            System.out.println(rezultat);
         }
 
-
-        System.out.println(rezultat);
 
     }
 
@@ -58,6 +64,45 @@ public class Exercitiul2 {
 
         return x;
     }
+
+    private static Stack<Integer> genPrimeAfter(int rez) {
+        Stack<Integer> primeList = new Stack<Integer>();
+        Stack<Integer> expList = new Stack<Integer>();
+
+        primeList.push(2);
+        int number=3;
+        while (number<=rez){
+
+            boolean isprim=true;
+
+
+            for (Integer elm : primeList) {
+
+                if (number%elm==0){
+                    isprim=false;
+                    break;
+                }
+            }
+            if (isprim==true) {
+                primeList.push(number);
+            }
+            number=number+1;
+
+        }
+
+        while (rez>1){
+            for (Integer elm : primeList) {
+                expList.push(0);
+                while (rez%elm==0){
+                    expList.push(expList.pop()+1);
+                    rez=rez/elm;
+                }
+            }
+        }
+        return expList;
+    }
+
+
 
 
 }
