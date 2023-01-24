@@ -9,6 +9,7 @@ public class Exercitiul2 {
         Stack<Integer> primeList = new Stack<Integer>();
         Stack<Integer> lista = new Stack<Integer>();
 
+        System.out.println("Introduceti lista de numere delimitata cu \",\" pentru a se calcula numarul lui Gödel. Pentru calcularea listei de numere introduceti doar un singur element!");
         lista=readNextValue();
         nrExpon=lista.size();
         if (nrExpon==1) {
