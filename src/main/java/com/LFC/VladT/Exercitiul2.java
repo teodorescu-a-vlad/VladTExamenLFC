@@ -1,6 +1,9 @@
 package com.LFC.VladT;
 
-import java.util.*;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+import java.lang.Math;
+import java.util.Stack;
 
 public class Exercitiul2 {
     public static void main(String[] args) {

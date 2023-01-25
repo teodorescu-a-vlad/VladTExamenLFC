@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d436a48-9be7-44f3-90af-21d472497b45" name="Changes" comment="comentarii">
+    <list default="true" id="1d436a48-9be7-44f3-90af-21d472497b45" name="Changes" comment="erori">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul2.java" afterDir="false" />
     </list>
@@ -59,7 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exercitiul2">
+  <component name="RunManager" selected="Application.Exercitiul3">
     <configuration name="Exercitiul1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.LFC.VladT.Exercitiul1" />
       <module name="VladTExamenLFC" />
@@ -86,8 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercitiul3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LFC.VladT.Exercitiul3" />
+      <module name="VladTExamenLFC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LFC.VladT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercitiul3" />
         <item itemvalue="Application.Exercitiul2" />
         <item itemvalue="Application.Exercitiul1" />
       </list>
@@ -137,7 +152,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674634969585</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="erori">
+      <created>1674636348254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674636348254</updated>
+    </task>
+    <task id="LOCAL-00007" summary="erori">
+      <created>1674636490748</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674636490748</updated>
+    </task>
+    <task id="LOCAL-00008" summary="erori">
+      <created>1674636528471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674636528471</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +191,7 @@
     <MESSAGE value="Exercitiu1" />
     <MESSAGE value="Exercitiu2" />
     <MESSAGE value="comentarii" />
-    <option name="LAST_COMMIT_MESSAGE" value="comentarii" />
+    <MESSAGE value="erori" />
+    <option name="LAST_COMMIT_MESSAGE" value="erori" />
   </component>
 </project>
