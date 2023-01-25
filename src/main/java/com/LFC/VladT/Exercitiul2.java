@@ -8,8 +8,8 @@ public class Exercitiul2 {
     public static void main(String[] args) {
         int nrExpon;
         int rezultat = 1;
-        Stack<Integer> primeList = new Stack<Integer>();
-        Stack<Integer> lista = new Stack<Integer>();
+        Stack<Integer> primeList;
+        Stack<Integer> lista;
 
         System.out.println("Introduceti lista de numere delimitata cu \",\" pentru a se calcula numarul lui Gödel. Pentru calcularea listei de numere introduceti doar un singur element!");
         lista=readNextValue();
@@ -34,7 +34,7 @@ public class Exercitiul2 {
     }
 
     private static Stack<Integer> readNextValue(){
-        Stack<Integer> x = new Stack<Integer>();
+        Stack<Integer> x = new Stack<>();
         while(true) {
             try {
                 Scanner scaner = new Scanner(System.in);
@@ -57,7 +57,7 @@ public class Exercitiul2 {
     }
 
     private static Stack<Integer> genPrimeNr(int nrExpon) {
-        Stack<Integer> x = new Stack<Integer>();
+        Stack<Integer> x = new Stack<>();
         x.push(2);
         int number = 3 ;
         while ((nrExpon-1)>0){
@@ -83,8 +83,8 @@ public class Exercitiul2 {
     }
 
     private static Stack<Integer> genPrimeAfter(int rez) {
-        Stack<Integer> primeList = new Stack<Integer>();
-        Stack<Integer> expList = new Stack<Integer>();
+        Stack<Integer> primeList = new Stack<>();
+        Stack<Integer> expList = new Stack<>();
 
         primeList.push(2);
         int number=3;
