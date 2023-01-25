@@ -53,8 +53,7 @@ public class Exercitiul3 {
             l = readNextValue();
             b=2+l;
         }
-        int z = ((int) Math.pow(2, b) * ((2 * c) + 1)) - 1;
-         z = ((int) Math.pow(2, a) * ((2 * z) + 1)) - 1;
+        int z =  fBiject(a,fBiject(b,c));
         System.out.println("#(I)="+z);
     }
 
@@ -81,4 +80,9 @@ public class Exercitiul3 {
         return x;
     }
 
+    private static int fBiject(int a,int b) {
+        int z;
+        z = ((int) Math.pow(2, a) * ((2 * b) + 1)) - 1;
+        return z;
+    }
 }
