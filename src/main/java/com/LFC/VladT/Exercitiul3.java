@@ -9,8 +9,6 @@ public class Exercitiul3 {
 
     public static void main(String[] args) {
 
-        Scanner scaner = new Scanner(System.in);
-
         System.out.println("Daca instructiunea are eticheta introduceti numarul etichetei L, altfel tastati 0!");
         int a = readNextValue();
         System.out.println("Daca instructiunea contine variabila de iesire tastati 0,");
