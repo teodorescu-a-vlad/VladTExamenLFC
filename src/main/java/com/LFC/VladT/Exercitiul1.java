@@ -1,6 +1,5 @@
 package com.LFC.VladT;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.lang.Math;
 
@@ -8,7 +7,7 @@ public class Exercitiul1 {
     public static void main(String[] args) {
         Scanner scaner = new Scanner(System.in);
         System.out.println("Daca doriti sa introduceti perechea X,Y apasati \"y\" si ENTER");
-        char qbranch='y';
+
         /*
         daca primul caracter introdus e y cerem de la tastatura x si y
          */
@@ -51,11 +50,7 @@ public class Exercitiul1 {
                     throw new RuntimeException();
                 }
                 break;
-            }
-            catch(InputMismatchException e) {
-                System.out.println("Nu ati introdus un numar natural! Reincercati");
-            }
-            catch(RuntimeException a) {
+            } catch(RuntimeException e) {
                 System.out.println("Nu ati introdus un numar natural! Reincercati");
             }
         }
