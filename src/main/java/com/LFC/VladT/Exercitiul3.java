@@ -75,11 +75,7 @@ public class Exercitiul3 {
                     throw new RuntimeException();
                 }
                 break;
-            }
-            catch(InputMismatchException e) {
-                System.out.println("Nu ati introdus un numar natural! Reincercati");
-            }
-            catch(RuntimeException a) {
+            } catch(RuntimeException e) {
                 System.out.println("Nu ati introdus un numar natural! Reincercati");
             }
         }
