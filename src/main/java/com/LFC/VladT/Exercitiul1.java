@@ -30,7 +30,7 @@ public class Exercitiul1 {
                 z=z/2;//reducem puterea lui 2 prin impartire la 2
                 x=x+1;// si incrementam x
             }
-            int y=(z-1)/2;//determinam y in functie de zcare acum este (numarinrodus+1)/2^x
+            int y=(z-1)/2;//determinam y in functie de z care acum este (numarinrodus+1)/2^x
 
             System.out.println("<"+x+","+y+">");
         }

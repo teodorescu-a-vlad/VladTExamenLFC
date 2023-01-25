@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d436a48-9be7-44f3-90af-21d472497b45" name="Changes" comment="Exercitiu2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1d436a48-9be7-44f3-90af-21d472497b45" name="Changes" comment="comentarii">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674591206032</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="comentarii">
+      <created>1674599878070</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674599878070</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercitiu1" />
     <MESSAGE value="Exercitiu2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercitiu2" />
+    <MESSAGE value="comentarii" />
+    <option name="LAST_COMMIT_MESSAGE" value="comentarii" />
   </component>
 </project>
