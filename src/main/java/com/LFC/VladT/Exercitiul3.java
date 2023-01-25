@@ -1,7 +1,6 @@
 package com.LFC.VladT;
 
 import java.util.Arrays;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.lang.Math;
 
