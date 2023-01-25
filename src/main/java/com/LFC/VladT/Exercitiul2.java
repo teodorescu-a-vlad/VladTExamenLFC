@@ -15,6 +15,7 @@ public class Exercitiul2 {
         if (nrExpon==1) {
             int rez= lista.pop();
             lista=genPrimeAfter(rez);
+            System.out.println("Lista exponentilor este:");
             System.out.println(lista);
         }
         else{
@@ -23,6 +24,7 @@ public class Exercitiul2 {
             while (lista.isEmpty() == false) {
                 rezultat = rezultat * ((int) Math.pow(primeList.pop(), lista.pop()));
             }
+            System.out.println("Numarul lui Gödel este:");
             System.out.println(rezultat);
         }
 
@@ -31,12 +33,27 @@ public class Exercitiul2 {
 
     private static Stack<Integer> readNextValue(){
         Stack<Integer> x = new Stack<Integer>();
-        Scanner scaner = new Scanner(System.in);
-        String line = scaner.nextLine();
-        String[] arr= line.split(",");
-         for(int i = 0;i < arr.length;i++)
-        {
-            x.push(Integer.parseInt(arr[i]));
+        while(true) {
+            try {
+                Scanner scaner = new Scanner(System.in);
+                String line = scaner.nextLine();
+                String[] arr = line.split(",");
+                for (int i = 0; i < arr.length; i++) {
+                    if (Integer.parseInt(arr[i])<0){
+                        throw new RuntimeException();
+                    }
+                    else{
+                        x.push(Integer.parseInt(arr[i]));
+                    }
+                }
+                break;
+            } catch (InputMismatchException e) {
+                System.out.println("Nu ati introdus un numar natural! Reincercati");
+                x.clear();
+            } catch (RuntimeException a) {
+                System.out.println("Nu ati introdus un numar natural! Reincercati");
+                x.clear();
+            }
         }
         return x;
     }
