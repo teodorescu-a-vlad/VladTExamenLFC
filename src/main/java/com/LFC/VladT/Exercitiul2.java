@@ -70,9 +70,10 @@ public class Exercitiul2 {
 
                 if (number%elm==0){
                     isprim=false;
+                    break;
                 }
             }
-            if (isprim==true) {
+            if (isprim) {
                 x.push(number);
                 nrExpon = nrExpon - 1;
             }
@@ -101,7 +102,7 @@ public class Exercitiul2 {
                     break;
                 }
             }
-            if (isprim==true) {
+            if (isprim) {
                 primeList.push(number);
             }
             number=number+1;
