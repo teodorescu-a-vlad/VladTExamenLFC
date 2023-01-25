@@ -21,7 +21,7 @@ public class Exercitiul2 {
         else{
             primeList = genPrimeNr(nrExpon);
 
-            while (lista.isEmpty() == false) {
+            while (!lista.isEmpty()) {
                 rezultat = rezultat * ((int) Math.pow(primeList.pop(), lista.pop()));
             }
             System.out.println("Numarul lui Gödel este:");
