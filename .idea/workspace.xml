@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d436a48-9be7-44f3-90af-21d472497b45" name="Changes" comment="erori">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul2.java" afterDir="false" />
-    </list>
+    <list default="true" id="1d436a48-9be7-44f3-90af-21d472497b45" name="Changes" comment="Exercitiul1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +169,56 @@
       <option name="project" value="LOCAL" />
       <updated>1674636528471</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercitiul3">
+      <created>1674639237557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674639237557</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Exercitiul3">
+      <created>1674639260636</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674639260636</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Exercitiul3">
+      <created>1674639337743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674639337743</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Exercitiul3">
+      <created>1674639352777</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674639352777</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Exercitiul2">
+      <created>1674639434011</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674639434011</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Exercitiul2">
+      <created>1674639531474</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674639531474</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Exercitiul1">
+      <created>1674639599747</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674639599747</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +237,9 @@
     <MESSAGE value="Exercitiu2" />
     <MESSAGE value="comentarii" />
     <MESSAGE value="erori" />
-    <option name="LAST_COMMIT_MESSAGE" value="erori" />
+    <MESSAGE value="Exercitiul3" />
+    <MESSAGE value="Exercitiul2" />
+    <MESSAGE value="Exercitiul1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercitiul1" />
   </component>
 </project>
