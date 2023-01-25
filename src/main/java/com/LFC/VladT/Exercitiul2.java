@@ -1,6 +1,5 @@
 package com.LFC.VladT;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.lang.Math;
 import java.util.Stack;
@@ -41,19 +40,15 @@ public class Exercitiul2 {
                 Scanner scaner = new Scanner(System.in);
                 String line = scaner.nextLine();
                 String[] arr = line.split(",");
-                for (int i = 0; i < arr.length; i++) {
-                    if (Integer.parseInt(arr[i])<0){
+                for (String s : arr) {
+                    if (Integer.parseInt(s) < 0) {
                         throw new RuntimeException();
-                    }
-                    else{
-                        x.push(Integer.parseInt(arr[i]));
+                    } else {
+                        x.push(Integer.parseInt(s));
                     }
                 }
                 break;
-            } catch (InputMismatchException e) {
-                System.out.println("Nu ati introdus un numar natural! Reincercati");
-                x.clear();
-            } catch (RuntimeException a) {
+            } catch (RuntimeException e) {
                 System.out.println("Nu ati introdus un numar natural! Reincercati");
                 x.clear();
             }
