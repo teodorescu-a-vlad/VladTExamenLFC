@@ -1,10 +1,10 @@
-package com.LFC.VladT;
+package com.LFC.VladT.E2;
 
 import java.util.Scanner;
 import java.lang.Math;
 import java.util.Stack;
 
-public class Exercitiul2 {
+public class Main {
     public static void main(String[] args) {
         int nrExpon;
         int rezultat = 1;
@@ -26,7 +26,7 @@ public class Exercitiul2 {
             while (!lista.isEmpty()) {
                 rezultat = rezultat * ((int) Math.pow(primeList.pop(), lista.pop()));
             }
-            System.out.println("Numarul lui Gödel este:");
+            System.out.println("Numarul lui Gödel este: ");
             System.out.println(rezultat);
         }
 

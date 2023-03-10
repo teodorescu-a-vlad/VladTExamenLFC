@@ -1,9 +1,9 @@
-package com.LFC.VladT;
+package com.LFC.VladT.E1;
 
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Exercitiul1 {
+public class Main {
     public static void main(String[] args) {
         Scanner scaner = new Scanner(System.in);
         System.out.println("Daca doriti sa introduceti perechea X,Y apasati \"y\" si ENTER");

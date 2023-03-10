@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="VladTExamenLFC1:jar" />
       <artifact name="VladTExamenLFC2:jar" />
+      <artifact name="VladTExamenLFC3:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,12 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d436a48-9be7-44f3-90af-21d472497b45" name="Changes" comment="functie bijectiva">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VladTExamenLFC2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/VladTExamenLFC_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources1/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources2/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/VladTExamenLFC2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/VladTExamenLFC2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/VladTExamenLFC3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/VladTExamenLFC3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/VladTExamenLFC_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/VladTExamenLFC1_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/VladTExamenLFC2_jar/VladTExamenLFC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/VladTExamenLFC2_jar/VladTExamenLFC.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/VladTExamenLFC3_jar/VladTExamenLFC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/VladTExamenLFC3_jar/VladTExamenLFC.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/VladTExamenLFC_jar/VladTExamenLFC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/VladTExamenLFC_jar/VladTExamenLFC.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/E1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/E2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/Exercitiul3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/LFC/VladT/E3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources1/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources2/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +54,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="99sw0osi" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -61,24 +73,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/vteav/IdeaProjects/VladTExamenLFC",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vteav/IdeaProjects/VladTExamenLFC&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Exercitiul3">
+}</component>
+  <component name="RunManager" selected="Application.com.LFC.VladT.E1.Main">
     <configuration name="Exercitiul1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.LFC.VladT.Exercitiul1" />
       <module name="VladTExamenLFC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.LFC.VladT.*" />
+          <option name="PATTERN" value="com.LFC.VladT.E1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +103,7 @@
       <module name="VladTExamenLFC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.LFC.VladT.*" />
+          <option name="PATTERN" value="com.LFC.VladT.E1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +111,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercitiul3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.LFC.VladT.Exercitiul3" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LFC.VladT.E3.Main" />
       <module name="VladTExamenLFC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.LFC.VladT.*" />
+          <option name="PATTERN" value="com.LFC.VladT.E1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LFC.VladT.E3.S01" />
+      <module name="VladTExamenLFC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LFC.VladT.E3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.LFC.VladT.E1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LFC.VladT.E1.Main" />
+      <module name="VladTExamenLFC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LFC.VladT.E1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +152,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercitiul3" />
+        <item itemvalue="Application.com.LFC.VladT.E1.Main" />
+        <item itemvalue="Application.S01" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Exercitiul2" />
         <item itemvalue="Application.Exercitiul1" />
       </list>
@@ -248,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674643919244</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="functie bijectiva">
+      <created>1675053995812</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675053995812</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

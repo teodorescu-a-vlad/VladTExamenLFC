@@ -1,10 +1,10 @@
-package com.LFC.VladT;
+package com.LFC.VladT.E3;
 
 import java.util.Arrays;
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Exercitiul3 {
+public class Main {
 
     public static void main(String[] args) {
 
